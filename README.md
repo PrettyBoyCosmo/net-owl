@@ -37,7 +37,7 @@ Are you sure you want to lock install "Net-Owl" (Y/N)
 - Will Auto-Run Net-Owl.py
 
 > Run Net-Owl.py
-- Open "net-owl" Directory in CMD
+- Open "net-owl" Directory in Command Line [CMD]
 - Run Using "py -3.8 net-owl.py"
 ```
  _______          __            ________         .__
