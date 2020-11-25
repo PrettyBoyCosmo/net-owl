@@ -42,7 +42,6 @@ bullet_point = colored('* ', source_status_color)
 def color_address(write):
     return colored(f'"{write}"', source_status_color)
 
-
 # generate loot file
 def password_file_generator():
     target_user = getpass.getuser()
@@ -169,7 +168,6 @@ def cred_checker(account_db, key):
 
     else:
         pass
-
 
 # Hacking Functions
     # obtain wifi passwords, required for options 1-3
@@ -318,7 +316,6 @@ def help_screen():
 
     # credits
     print(colored('\n\nCreds to : Chris Taylor [C0SM0]\n', source_status_color))
-
 
 # main code
 def net_owl_main():
