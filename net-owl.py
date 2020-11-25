@@ -289,8 +289,8 @@ def help_screen():
     print(colored('\nRequirements :', title_color))
     print(bullet_point + colored('python3 [pip]', input_status_color))
     print(bullet_point + colored('Windows Computer', input_status_color))
-    print(bullet_point + colored('*Gmail Account [Personal Account Not Suggested]', input_status_color))
-    print(bullet_point + colored('*Gmail Must Allow Less Secure Apps', input_status_color))
+    print(bullet_point + colored('Gmail Account [Personal Account Not Suggested]', input_status_color))
+    print(bullet_point + colored('Gmail Must Allow Less Secure Apps', input_status_color))
     print(bullet_point + colored('\t-Activated by Navigating to {lsa_link}', input_status_color))
 
     # instructions
