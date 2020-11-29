@@ -13,14 +13,14 @@
 
 ## Overview :
 ```
-Welcome to Net-Owl - [Network Exfiltraion Tasks On WLan]
+Welcome to Net-Owl - [Network Exfiltration Tasks On WLan]
 A Windows Wifi Password Exfiltrator
-The Result of a 50-hour Programing Challenge
+The Result of a 50-hour Programming Challenge
 ```
 
 ## Requirements :
 - python3 [pip]
-- Windows Computer
+- Windows Operating System
 - Gmail Account [Personal Account Not Suggested]
     - Account Info Will Be Encrypted
 - Gmail Must Allow Less Secure Apps 
