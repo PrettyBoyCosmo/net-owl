@@ -1,4 +1,5 @@
 # Net-Owl
+
 > Chris Taylor [C0SM0] | 11/22-24/2020 
 
 ```
@@ -29,7 +30,7 @@ The Result of a 50-hour Programing Challenge
 > Installation
 - Use Responsibly
 - Use "installer.bat" to Install All Dependencies
-```
+```bash
 *By selecting "y" or "Y" you are confirming that you will not use this code maliciously or illegally
 Are you sure you want to lock install "Net-Owl" (Y/N)
 ```
